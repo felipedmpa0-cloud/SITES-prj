@@ -1,0 +1,1215 @@
+/* PC */
+
+* {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+}
+
+body {
+     border: 0px;
+     margin: 0px;
+}
+
+#destaque {
+     background-image: url("../images/pousada-outeiro-praia-capa.jpg");
+     background-color: var(--e-global-color-0d84cbc);
+     background-position: center center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     max-width: 100%;
+     width: 100vw;
+     height: 100vh;
+     
+}
+
+.menu {
+     flex-direction: row;
+     display: flex;
+     justify-content: center;
+}
+
+.lista {
+     margin: 15px;
+     font-size: 16px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav {
+     background-color: rgba(0, 0, 0, 0.562);
+}
+
+a {
+     text-decoration: none;
+     background: linear-gradient(135deg, cor1, cor2);
+     color: white;
+     padding: 10px 20px;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+     transition: background-color 0.3s ease;
+     color: rgb(255, 255, 255);
+}
+
+a:hover {
+     background: rgba(20, 20, 20, 0.1);
+     transform: scale(1.1);
+}
+
+.logo {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 0%;
+     margin-top: 20px;
+}
+
+.imagemLogo {
+     height: 15%;
+     width: 15%;
+     margin: 70px;
+
+}
+
+.subTitulo {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.subTitulo h1 {
+     color: #fff;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-size: 30px;
+}
+
+.subTitulo2 {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.subTitulo2 p {
+     color: #fff;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-size: 20px;
+
+}
+
+/*Section2*/
+
+.Titulo1 {
+     display: flex;
+     justify-content: center;
+     margin-top: 5%;
+}
+
+.Titulo1 h1 {
+     color: #00516e;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: 45px;
+}
+
+.Titulo2 {
+     display: flex;
+     justify-content: center;
+
+}
+
+.Titulo2 h2 {
+     color: #009e7b;
+     font-family: "Rouge Script", cursive;
+     font-weight: 400;
+     font-style: normal;
+     font-size: 65px;
+     margin: 10px;
+}
+
+.subTitulo3 {
+     display: flex;
+     justify-content: center;
+     display: table;
+     margin: 0 auto;
+     width: 50%;
+
+}
+
+.subTitulo3 p {
+     color: #00516e;
+}
+
+.linkBlock {
+     background: white;
+     border: 1px solid #00517d;
+     color: #00517d;
+     padding: 11px 25px;
+     font-family: Georgia, "Times New Roman", serif;
+     font-size: 16px;
+     cursor: pointer;
+     margin-top: 2%;
+}
+
+.linkBlock:hover {
+     background: #00517d;
+     color: white;
+     transform: scale(1.1);
+}
+
+.container {
+     display: flex;
+     justify-content: center;
+     gap: 2%;
+}
+
+.suites {
+     display: flex;
+     justify-content: center;
+     margin-top: 5%;
+}
+
+.suites h1 {
+     color: #00516e;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: 40px;
+}
+
+.suitesLegenda {
+     display: flex;
+     justify-content: center;
+     margin-bottom: 3%;
+
+}
+
+.suitesLegenda p {
+     color: #00516e;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.quarto {
+     width: 85%;
+     height: 520px;
+     display: flex;
+     border: 1px solid #ddd;
+     overflow: hidden;
+     margin-left: 8%;
+     margin-bottom: 5%;
+}
+
+.imagem {
+     width: 60%;
+     position: relative;
+     overflow: hidden;
+}
+
+.imagem img {
+     width: 85%;
+     height: 100%;
+     object-fit: cover;
+}
+
+.informacoes {
+     width: 40%;
+     padding: 120px 30px;
+     position: relative;
+}
+
+.informacoes h1 {
+     color: #00517d;
+     font-size: 30px;
+     font-weight: normal;
+     margin-bottom: 25px;
+}
+
+.informacoes p {
+     color: #00517d;
+     font-size: 20px;
+     line-height: 1.5;
+     margin-bottom: 25px;
+
+}
+
+.botoes {
+     display: flex;
+     gap: 10px;
+}
+
+.botao {
+     background: white;
+     border: 1px solid #00517d;
+     color: #00517d;
+     padding: 11px 25px;
+     font-family: Georgia, "Times New Roman", serif;
+     font-size: 16px;
+     cursor: pointer;
+}
+
+.botao:hover {
+     background: #00517d;
+     color: white;
+     transform: scale(1.1);
+}
+
+.decoracao {
+     position: absolute;
+     right: -20px;
+     bottom: -30px;
+     width: 140px;
+     height: 140px;
+     border: 1px solid #d5e2e8;
+     border-radius: 50%;
+     opacity: 0.8;
+}
+
+footer {
+     background-color: #00517d;
+}
+
+.logofooter {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 0%;
+}
+
+.imagemLogofooter {
+     height: 8%;
+     width: 8%;
+     margin-top: 5%;
+}
+
+.subTituloFooter {
+     display: flex;
+     justify-content: center;
+     margin-top: 20px;
+
+}
+
+.subTituloFooter p {
+     color: #fff;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.ultimato {
+     background-color: #00516e;
+
+}
+
+.ultimatoDiv {
+     display: flex;
+     justify-content: center;
+
+}
+
+.ultimatoDiv p {
+     color: #fff;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media (max-width: 768px) {
+     .menu {
+          flex-direction: column;
+          align-items: center;
+          padding: 10px 0;
+
+     }
+
+     .lista {
+          margin: 8px;
+          font-size: 15px;
+     }
+
+     .imagemLogo {
+          width: 25%;
+          height: auto;
+          margin: 30px auto;
+     }
+
+     .subTitulo h1 {
+          font-size: 24px;
+          text-align: center;
+          padding: 0 10px;
+     }
+
+     .subTitulo2 p {
+          margin-top: 2%;
+          font-size: 16px;
+          text-align: center;
+          padding: 0 10px;
+     }
+
+     .Titulo1 h1 {
+          font-size: 28px;
+          text-align: center;
+     }
+
+     .Titulo2 h2 {
+          font-size: 40px;
+          text-align: center;
+     }
+
+     .suites h1 {
+          font-size: 28px;
+          text-align: center;
+          margin-bottom: 2%;
+     }
+
+     .suitesLegenda p {
+          text-align: center;
+          padding: 0 15px;
+     }
+
+     .subTitulo3 {
+          width: 85%;
+          text-align: center;
+          margin-bottom: 2%;
+     }
+
+     .container {
+          flex-direction: column;
+          align-items: center;
+          gap: 20px;
+     }
+
+     .quarto {
+          flex-direction: column;
+          width: 90%;
+          height: auto;
+          margin: 0 auto 30px auto;
+     }
+
+     .imagem {
+          width: 100%;
+          height: 250px;
+     }
+
+     .imagem img {
+          width: 100%;
+     }
+
+     .informacoes {
+          width: 100%;
+          padding: 20px;
+     }
+
+     .informacoes h1 {
+          font-size: 22px;
+          margin-bottom: 15px;
+     }
+
+     .informacoes p {
+          font-size: 15px;
+          margin-bottom: 20px;
+     }
+
+     .botoes {
+          justify-content: center;
+     }
+
+     .decoracao {
+          display: none;
+     }
+
+     .imagemLogofooter {
+          width: 25%;
+          height: auto;
+     }
+
+     .subTituloFooter p,
+     .ultimatoDiv p {
+          text-align: center;
+          padding: 10px;
+          font-size: 14px;
+     }
+}
+
+/* Acomoda */
+
+.acomoda {
+     background-color: #fcfcfc;
+}
+
+.menu2 {
+     flex-direction: row;
+     display: flex;
+     justify-content: center;
+     margin-top: 5%;
+}
+
+.lista2 {
+     margin: 15px;
+     font-size: 16px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.lista2 a {
+     text-decoration: none;
+     background: linear-gradient(135deg, cor1, cor2);
+     padding: 10px 20px;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+     transition: background-color 0.3s ease;
+     color: #00516e;
+}
+
+.Ac {
+     margin-top: 5px;
+}
+
+.imagemAc {
+     width: 100%;
+     height: 500px;
+}
+
+.AcSection {
+     padding: 3%;
+     background-color: #fff;
+     margin-bottom: 3%;
+}
+
+.AcH1 {
+     display: flex;
+     justify-content: center;
+     margin-bottom: 3%;
+}
+
+.AcH1 h1 {
+     color: #00516e;
+     font-family: "Valley Sans", sans-serif;
+     font-size: 50px;
+     font-weight: 400;
+}
+
+.quarto1 {
+     width: 85%;
+     height: 520px;
+     display: flex;
+
+     overflow: hidden;
+     margin-left: 8%;
+     margin-bottom: 5%;
+}
+
+.imagem1 {
+     width: 60%;
+     position: relative;
+     overflow: hidden;
+}
+
+.imagem1 img {
+     width: 85%;
+     height: 100%;
+     object-fit: cover;
+}
+
+.informacoes1 {
+     width: 40%;
+     padding: 120px 30px;
+     position: relative;
+}
+
+.informacoes1 h1 {
+     color: #00517d;
+     font-size: 30px;
+     font-weight: normal;
+     margin-bottom: 25px;
+}
+
+.informacoes1 p {
+     color: #00517d;
+     font-size: 20px;
+     line-height: 1.5;
+     margin-bottom: 25px;
+
+}
+
+.botoes1 {
+     display: flex;
+     gap: 10px;
+}
+
+.botao1 {
+     background: white;
+     border: 1px solid #00517d;
+     color: #00517d;
+     padding: 11px 25px;
+     font-family: Georgia, "Times New Roman", serif;
+     font-size: 16px;
+     cursor: pointer;
+}
+
+.botao1:hover {
+     background: #00517d;
+     color: white;
+     transform: scale(1.1);
+}
+
+.decoracao1 {
+     position: absolute;
+     right: -20px;
+     bottom: -30px;
+     width: 140px;
+     height: 140px;
+     border: 1px solid #d5e2e8;
+     border-radius: 50%;
+     opacity: 0.8;
+}
+
+.varanda {
+     width: 83.5%;
+}
+
+.Logo1 {
+     display: flex;
+     justify-content: center;
+     margin-top: 3%;
+}
+
+.imagemLogo1 {
+     height: 145px;
+}
+
+html,
+body {
+     width: 100%;
+     max-width: 100%;
+     overflow-x: hidden;
+}
+
+img {
+     max-width: 100%;
+     height: auto;
+}
+
+@media (max-width: 1024px) {
+
+     #destaque {
+          width: 100%;
+          min-height: 100vh;
+          height: auto;
+          background-position: center center;
+     }
+
+     .menu {
+          flex-wrap: wrap;
+          padding: 10px 20px;
+     }
+
+     .lista {
+          margin: 8px;
+     }
+
+     .imagemLogo {
+          width: 25%;
+          height: auto;
+          margin: 50px auto 30px;
+     }
+
+     .subTitulo h1 {
+          font-size: clamp(25px, 4vw, 35px);
+          text-align: center;
+          padding: 0 20px;
+     }
+
+     .subTitulo2 p {
+          font-size: clamp(16px, 2.5vw, 20px);
+          text-align: center;
+          padding: 0 20px;
+     }
+
+     .Titulo1 {
+          margin-top: 60px;
+          padding: 0 20px;
+     }
+
+     .Titulo1 h1 {
+          font-size: clamp(30px, 5vw, 45px);
+          text-align: center;
+     }
+
+     .Titulo2 h2 {
+          font-size: clamp(40px, 7vw, 65px);
+          text-align: center;
+     }
+
+     .subTitulo3 {
+          width: 80%;
+          text-align: center;
+     }
+
+     .quarto {
+          width: 90%;
+          height: auto;
+          margin: 0 auto 50px;
+     }
+
+     .imagem {
+          width: 55%;
+     }
+
+     .imagem img {
+          width: 100%;
+     }
+
+     .informacoes {
+          width: 45%;
+          padding: 70px 25px;
+     }
+
+     .informacoes h1 {
+          font-size: 26px;
+     }
+
+     .informacoes p {
+          font-size: 18px;
+     }
+
+     .menu2 {
+          flex-wrap: wrap;
+          padding: 10px 20px;
+     }
+
+     .imagemAc {
+          width: 100%;
+          height: 400px;
+          object-fit: cover;
+     }
+
+     .quarto1 {
+          width: 90%;
+          height: auto;
+          margin: 0 auto 50px;
+     }
+
+     .imagem1 {
+          width: 55%;
+     }
+
+     .imagem1 img {
+          width: 100%;
+     }
+
+     .informacoes1 {
+          width: 45%;
+          padding: 70px 25px;
+     }
+
+     .informacoes1 h1 {
+          font-size: 26px;
+     }
+
+     .informacoes1 p {
+          font-size: 18px;
+     }
+
+     .varanda {
+          width: 90%;
+          max-width: 100%;
+     }
+
+     .imagemLogo1 {
+          max-width: 80%;
+          height: auto;
+     }
+}
+
+@media (max-width: 768px) {
+
+     body {
+          width: 100%;
+          overflow-x: hidden;
+     }
+
+     #destaque {
+          width: 100%;
+          min-height: 100vh;
+          height: auto;
+          background-size: cover;
+          background-position: center center;
+     }
+
+     .menu {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          padding: 10px 0;
+          width: 100%;
+     }
+
+     .lista {
+          margin: 6px 0;
+          font-size: 14px;
+          width: 100%;
+          text-align: center;
+     }
+
+     .lista a {
+          display: inline-block;
+          padding: 9px 18px;
+          max-width: 90%;
+     }
+
+     .logo {
+          width: 100%;
+          margin-top: 20px;
+     }
+
+     .imagemLogo {
+          width: 40%;
+          max-width: 180px;
+          height: auto;
+          margin: 25px auto;
+     }
+
+     .subTitulo {
+          width: 100%;
+          padding: 0 15px;
+     }
+
+     .subTitulo h1 {
+          font-size: clamp(22px, 7vw, 30px);
+          line-height: 1.2;
+          text-align: center;
+     }
+
+     .subTitulo2 {
+          width: 100%;
+          padding: 0 15px;
+     }
+
+     .subTitulo2 p {
+          font-size: clamp(15px, 4.5vw, 19px);
+          line-height: 1.5;
+          text-align: center;
+     }
+
+     .Titulo1 {
+          margin-top: 50px;
+          padding: 0 15px;
+     }
+
+     .Titulo1 h1 {
+          font-size: clamp(25px, 8vw, 35px);
+          line-height: 1.2;
+          text-align: center;
+     }
+
+     .Titulo2 {
+          width: 100%;
+          padding: 0 10px;
+     }
+
+     .Titulo2 h2 {
+          font-size: clamp(38px, 12vw, 55px);
+          line-height: 1.1;
+          text-align: center;
+          margin: 10px 0;
+     }
+
+     .subTitulo3 {
+          width: 90%;
+          max-width: 600px;
+          text-align: center;
+          line-height: 1.6;
+     }
+
+     .subTitulo3 p {
+          font-size: 15px;
+     }
+
+     .linkBlock {
+          display: inline-block;
+          padding: 10px 20px;
+          font-size: 15px;
+          margin-top: 20px;
+     }
+
+     .container {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 20px;
+     }
+
+     .suites {
+          width: 100%;
+          margin-top: 50px;
+          padding: 0 15px;
+     }
+
+     .suites h1 {
+          font-size: clamp(25px, 8vw, 35px);
+          text-align: center;
+          line-height: 1.2;
+     }
+
+     .suitesLegenda {
+          width: 100%;
+          padding: 0 20px;
+          margin-bottom: 30px;
+     }
+
+     .suitesLegenda p {
+          font-size: 14px;
+          line-height: 1.5;
+          text-align: center;
+     }
+
+     .quarto {
+          width: 92%;
+          height: auto;
+          display: flex;
+          flex-direction: column;
+          margin: 0 auto 35px;
+          overflow: hidden;
+     }
+
+     .imagem {
+          width: 100%;
+          height: 250px;
+          overflow: hidden;
+     }
+
+     .imagem img {
+          display: block;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+     }
+
+     .informacoes {
+          width: 100%;
+          padding: 30px 22px;
+     }
+
+     .informacoes h1 {
+          font-size: 23px;
+          line-height: 1.3;
+          margin-bottom: 15px;
+     }
+
+     .informacoes p {
+          font-size: 16px;
+          line-height: 1.6;
+          margin-bottom: 20px;
+     }
+
+     .botoes {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 10px;
+     }
+
+     .botao {
+          flex: 1 1 auto;
+          min-width: 120px;
+          padding: 10px 15px;
+          font-size: 14px;
+          text-align: center;
+     }
+
+     .decoracao {
+          display: none;
+     }
+
+     footer {
+          width: 100%;
+     }
+
+     .logofooter {
+          width: 100%;
+     }
+
+     .imagemLogofooter {
+          width: 30%;
+          max-width: 150px;
+          height: auto;
+          margin-top: 35px;
+     }
+
+     .subTituloFooter {
+          width: 100%;
+          padding: 0 20px;
+     }
+
+     .subTituloFooter p {
+          font-size: 13px;
+          line-height: 1.5;
+          text-align: center;
+     }
+
+     .ultimato {
+          width: 100%;
+     }
+
+     .ultimatoDiv {
+          width: 100%;
+          padding: 10px 15px;
+     }
+
+     .ultimatoDiv p {
+          font-size: 13px;
+          text-align: center;
+          line-height: 1.5;
+     }
+
+     .acomoda {
+          width: 100%;
+          overflow: hidden;
+     }
+
+     .menu2 {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          width: 100%;
+          margin-top: 30px;
+          padding: 10px 0;
+     }
+
+     .lista2 {
+          width: 100%;
+          margin: 5px 0;
+          text-align: center;
+          font-size: 14px;
+     }
+
+     .lista2 a {
+          display: inline-block;
+          padding: 9px 18px;
+     }
+
+     .imagemAc {
+          width: 100%;
+          height: 280px;
+          object-fit: cover;
+          display: block;
+     }
+
+     .AcSection {
+          padding: 30px 15px;
+          margin-bottom: 25px;
+     }
+
+     .AcH1 {
+          width: 100%;
+          margin-bottom: 30px;
+          padding: 0 10px;
+     }
+
+     .AcH1 h1 {
+          font-size: clamp(30px, 10vw, 45px);
+          line-height: 1.2;
+          text-align: center;
+     }
+
+     .quarto1 {
+          width: 92%;
+          height: auto;
+          display: flex;
+          flex-direction: column;
+          margin: 0 auto 35px;
+          overflow: hidden;
+     }
+
+     .imagem1 {
+          width: 100%;
+          height: 250px;
+          overflow: hidden;
+     }
+
+     .imagem1 img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          display: block;
+     }
+
+     .informacoes1 {
+          width: 100%;
+          padding: 30px 22px;
+     }
+
+     .informacoes1 h1 {
+          font-size: 23px;
+          line-height: 1.3;
+          margin-bottom: 15px;
+     }
+
+     .informacoes1 p {
+          font-size: 16px;
+          line-height: 1.6;
+          margin-bottom: 20px;
+     }
+
+     .botoes1 {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 10px;
+     }
+
+     .botao1 {
+          flex: 1 1 auto;
+          min-width: 120px;
+          padding: 10px 15px;
+          font-size: 14px;
+          text-align: center;
+     }
+
+     .decoracao1 {
+          display: none;
+     }
+
+     .varanda {
+          width: 100%;
+          max-width: 100%;
+          height: auto;
+     }
+
+     .Logo1 {
+          width: 100%;
+          margin-top: 30px;
+          padding: 0 15px;
+     }
+
+     .imagemLogo1 {
+          width: 45%;
+          max-width: 160px;
+          height: auto;
+     }
+}
+
+@media (max-width: 480px) {
+
+     .imagemLogo {
+          width: 45%;
+          max-width: 150px;
+     }
+
+     .lista,
+     .lista2 {
+          font-size: 13px;
+     }
+
+     .lista a,
+     .lista2 a {
+          padding: 8px 14px;
+     }
+
+     .subTitulo h1 {
+          font-size: 22px;
+     }
+
+     .subTitulo2 p {
+          font-size: 15px;
+     }
+
+     .Titulo1 h1 {
+          font-size: 26px;
+     }
+
+     .Titulo2 h2 {
+          font-size: 38px;
+     }
+
+     .quarto,
+     .quarto1 {
+          width: 94%;
+     }
+
+     .imagem,
+     .imagem1 {
+          height: 220px;
+     }
+
+     .informacoes,
+     .informacoes1 {
+          padding: 25px 18px;
+     }
+
+     .informacoes h1,
+     .informacoes1 h1 {
+          font-size: 21px;
+     }
+
+     .informacoes p,
+     .informacoes1 p {
+          font-size: 15px;
+     }
+
+     .botoes,
+     .botoes1 {
+          flex-direction: column;
+     }
+
+     .botao,
+     .botao1 {
+          width: 100%;
+     }
+
+     .imagemAc {
+          height: 230px;
+     }
+
+     .imagemLogofooter {
+          width: 35%;
+     }
+}
+
+@media (max-width: 360px) {
+
+     .imagemLogo {
+          width: 50%;
+     }
+
+     .subTitulo h1 {
+          font-size: 20px;
+     }
+
+     .subTitulo2 p {
+          font-size: 14px;
+     }
+
+     .Titulo1 h1 {
+          font-size: 23px;
+     }
+
+     .Titulo2 h2 {
+          font-size: 34px;
+     }
+
+     .imagem,
+     .imagem1 {
+          height: 200px;
+     }
+
+     .informacoes,
+     .informacoes1 {
+          padding: 20px 15px;
+     }
+
+     .informacoes h1,
+     .informacoes1 h1 {
+          font-size: 19px;
+     }
+
+     .informacoes p,
+     .informacoes1 p {
+          font-size: 14px;
+     }
+}
+
+@media (hover: none) {
+
+     a:hover,
+     .botao:hover,
+     .botao1:hover,
+     .linkBlock:hover {
+          transform: none;
+     }
+}
+
